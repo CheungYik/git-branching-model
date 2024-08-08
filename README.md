@@ -82,5 +82,10 @@ git commit -a -m "Bumped version number to 0.1.1"
 完成热修复分支：
 
 ```bash
-
+git checkout main
+git merge --no-ff hotfix-0.1.1
+git tag -a 0.1.1
+git checkout develop
+git merge --no-ff hotfix-0.1.1
+git branch -d hotfix-0.1.1
 ```
