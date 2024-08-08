@@ -78,3 +78,9 @@ git checkout -b hotfix-0.1.1 main
 ./bump-version.sh 0.1.1
 git commit -a -m "Bumped version number to 0.1.1"
 ```
+
+完成热修复分支：
+
+```bash
+
+```
