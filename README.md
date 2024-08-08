@@ -1,5 +1,7 @@
 # git-branching-model
 
+https://nvie.com/posts/a-successful-git-branching-model/
+
 ## 主要分支
 
 `main`：主分支，始终保持生产环境的稳定版本。
